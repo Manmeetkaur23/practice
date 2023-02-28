@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AFTER BEFORE CW</title>
+	<style type="text/css">
+	.img:before{
+		color:skyblue ;
+		float: left;
+		
+		margin-top:30px;
+		content: "-------------------------------------------------------------------------------------------------------------";
+	}
+	.img:after{
+		color:skyblue ;
+		
+		float: right;
+		margin-top: -50px;
+		content: "--------------------------------------------------------------------------------------------------------------";
+	}
+	.text:before{
+		content:url("images/design1.png");
+		
+
+	}
+	.text:after{
+		content:url("images/design1.png");
+        float: right;
+        margin-top: -10%;
+        margin-left:-350px;
+       
+
+	}
+
+	</style>
+</head>
+<body>
+<div class="container-fluid img " >
+	<div class="row">
+		<div class="col-md-12 " >
+			<img src="https://t3.ftcdn.net/jpg/03/30/19/58/360_F_330195829_6uDyjXuWiR8zNMLEvFi30g6Wj9WarfAo.jpg" style="width:120px; height: 70px;margin-left: 45%; margin-top: -40px;">
+
+		</div>
+	</div>
+</div>	
+<br><br>
+<div class="container-fluid text">
+	<div class="row">
+		<div class="col-md-12">
+		<h1 style="margin-top:-100px; margin-left: 45%; color:greenyellow;">GOOD MORNING</h1>	
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

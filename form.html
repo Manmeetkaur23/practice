@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+<form method="post" action="#">
+<label>Username:</label> <input type="text" placeholder="Enter Your Username" name="username" disabled>
+<label>Email:</label><input type="email" value="Enter Email" name="email" required>
+<label>Password</label><input type="password" >
+<label>Date Of Birth</label><input type="date" name="">
+<label>Number</label><input type="tel" name="phone"  minlength="10">
+<label>Color</label><input type="color" name="">
+<select name="car" multiple>
+	<option>Select Option</option>
+	<option>Maruti</option>
+	<option>Hyundai</option>
+	<option selected>Kia</option>
+	<option>Toyota</option>
+</select>
+<input type="radio" name="gender" value="male" checked>Male
+<input type="radio" name="gender" value="female">Female
+
+<br>
+<input type="checkbox" name="gender" value="male" checked>Male
+<input type="checkbox" name="gender" value="female">Female
+<br>
+<textarea name="message" rows="10" cols="50"></textarea>
+<input type="file" name="">
+<label>Price</label><input type="range" name="">
+<input type="submit" name="">	
+</form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container1{
+
+	width:100%;
+
+	height:700px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),#009688), url("https://img.freepik.com/premium-photo/make-up-artist-applying-eyeshadow-woman_23-2148332525.jpg?w=826");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.gg{
+	width: 100%;
+	height: 200px;
+	color: white;
+}
+
+.heading1{
+	width: auto;
+	color: white;
+	height:200px ;
+}
+
+.heading2{
+	width: auto;
+	color: white;
+	height:200px;
+	margin-top: -180px;
+}
+
+
